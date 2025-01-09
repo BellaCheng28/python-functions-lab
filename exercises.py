@@ -13,6 +13,7 @@ def calculate_area_triangle(base, height):
     return (base * height) / 2
 
 print('Exercise 1:', calculate_area_triangle(10, 5))
+print('Exercise 1:', calculate_area_triangle(7, 3))
 
 # Exercise 2: Calculate Simple Interest
 #
@@ -29,6 +30,7 @@ def simple_interest(principal, rate, time):
     return (principal * rate * time) / 100
 
 print('Exercise 2:', simple_interest(1000, 5, 2))
+print('Exercise 2:', simple_interest(1000, 3.5, 5))
 
 # Exercise 3: Apply a Discount
 #
@@ -45,6 +47,7 @@ def apply_discount(price, discount):
     return price * (1 - discount / 100)
 
 print('Exercise 3:', apply_discount(100, 25))
+print('Exercise 3:', apply_discount(80, 10))
 
 # Exercise 4: Convert Temperature
 #
@@ -83,6 +86,7 @@ def largest(num1, num2, num3):
     return max(num1, num2, num3)
 
 print('Exercise 6:', largest(1, 2, 3))
+print('Exercise 6:', largest(10, 4, 2))
 
 # Exercise 7: Calculate a Tip
 #
@@ -116,6 +120,7 @@ def product(*args):
         result *= num
     return result
 
+print('Exercise 8:', product(-1,4))
 print('Exercise 8:', product(2, 5, 5))
 
 # Exercise 9: Basic Calculator
